@@ -1,0 +1,157 @@
+/* style.css */
+
+/* --- General Styles --- */
+body {
+    background-color: #e0f2fe; /* Light blue */
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* --- Header Styles --- */
+.sliding-header {
+    background-color: #1e88e5; /* Medium blue */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    left: -100%;
+    transition: left 0.5s ease-in-out;
+}
+
+.sliding-header.active {
+    left: 0;
+}
+
+/* --- Application Links Styles --- */
+.apps {
+    padding: 20px;
+}
+
+.apps ul {
+    list-style: none;
+    padding: 0;
+}
+
+.app-link {
+    display: block;
+    background-color: #bbdefb; /* Lighter blue */
+    padding: 10px;
+    margin: 5px 0;
+    text-decoration: none;
+    color: #1976d2; /* Slightly darker blue */
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.app-link:hover {
+    background-color: #90caf9;
+}
+
+/* --- Information Section Styles --- */
+.info {
+    padding: 20px;
+}
+
+/* --- Learning Resources (Tabs) Styles --- */
+.resources {
+    padding: 20px;
+}
+
+.tab-container {
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    background-color: #f8f9fa; /* Light gray background for the tabs */
+}
+
+.tab-button {
+    background-color: #e9ecef; /* Slightly darker gray for inactive tabs */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-right: 1px solid #ccc;
+    transition: background-color 0.3s ease;
+}
+
+.tab-button:hover {
+    background-color: #dee2e6; /* Even darker gray on hover */
+}
+
+.tab-button.active {
+    background-color: #ffffff; /* White background for the active tab */
+    border-bottom: 2px solid #1e88e5; /* Blue underline for the active tab */
+}
+
+.tab-content {
+    display: none;
+    padding: 20px;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+/* --- Collapsible Section Styles --- */
+.collapsible-section {
+    border: 1px solid #ccc;
+    margin: 10px 0;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.collapsible-header {
+    background-color: #1e88e5; /* Medium blue header */
+    color: white;
+    padding: 15px;
+    cursor: pointer;
+    border-bottom: 1px solid #1565c0;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+.collapsible-header:hover {
+    background-color: #1565c0; /* Darker blue on hover */
+}
+
+.collapsible-content {
+    display: none;
+    padding: 15px;
+    background-color: #f8f9fa; /* Light gray background */
+}
+
+.collapsible-content.active {
+    display: block;
+}
+
+.collapsible-header::after {
+    content: '\f078'; /* Down arrow icon (Font Awesome) */
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+    transition: transform 0.3s ease;
+}
+
+.collapsible-content.active + .collapsible-header::after {
+    transform: rotate(180deg); /* Rotate arrow when content is active */
+}
+
+/* --- Lightbox Styles --- */
+.lightbox {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+}
+
+.lightbox img {
+    max-width: 90%;
+    max-height: 90%;
+    margin-top: 5%;
+}
