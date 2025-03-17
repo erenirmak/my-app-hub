@@ -286,6 +286,16 @@ def index():
     ],
     'Big Data Tools': [
         {
+            'Schedulers': [
+                {'name': 'Airflow', 'url': 'https://airflow.apache.org/'},
+                {'name': 'Kestra', 'url': 'https://kestra.io/'},
+                {'name': 'Luigi', 'url': 'https://luigi.readthedocs.io/en/stable/'},
+                {'name': 'Prefect', 'url': 'https://www.prefect.io/'},
+                {'name': 'Digdag', 'url': 'https://www.digdag.io/'},
+                {'name': 'Azkaban', 'url': 'https://azkaban.github.io/'},
+                {'name': 'Oozie', 'url': 'https://oozie.apache.org/'},
+                {'name': 'Kronos', 'url': ''},
+                ],
             'big_data_tools': [
                 {'name': 'Hadoop', 'url': 'https://hadoop.apache.org/'},
                 {'name': 'Spark', 'url': 'https://spark.apache.org/'},
