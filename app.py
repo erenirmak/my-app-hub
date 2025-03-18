@@ -29,11 +29,14 @@ def index():
                 {'name': 'Atomic Agents', 'url': 'https://github.com/BrainBlend-AI/atomic-agents'},
                 {'name': 'QuantaLogic', 'url': 'https://github.com/quantalogic/quantalogic'},
                 {'name': 'AutoGen (Microsoft)', 'url': 'https://github.com/microsoft/autogen'},
+                {'name': 'AG2 (formerly AutoGen)', 'url': 'https://github.com/ag2ai/ag2'},
                 {'name': 'Agents SDK (OpenAI)', 'url': 'https://github.com/openai/openai-agents-python'},
                 {'name': 'SuperAGI', 'url': 'https://github.com/TransformerOptimus/SuperAGI'},
                 {'name': 'Intellagent', 'url': 'https://github.com/plurai-ai/intellagent'},
                 {'name': 'Qwen-Agent', 'url': 'https://github.com/QwenLM/Qwen-Agent'},
                 {'name': 'AutoAgent', 'url': 'https://github.com/HKUDS/AutoAgent'},
+                {'name': 'CAMEL', 'url': 'https://github.com/camel-ai/camel'},
+                {'name': 'Mistral (commercial)', 'url': 'https://mistral.ai/'}
             ]
         },
         {
@@ -70,9 +73,13 @@ def index():
             'Tracing': [
                 {'name': 'LangSmith (commercial)', 'url': 'https://github.com/langchain-ai/langsmith-sdk'},
                 {'name': 'Langfuse', 'url': 'https://github.com/langfuse/langfuse'},
+                {'name': 'Pydantic Logfire', 'url': 'https://github.com/pydantic/logfire'},
+                {'name': 'AgentOps', 'url': 'https://github.com/AgentOps-AI/agentops'},
                 {'name': 'Phoenix', 'url': 'https://github.com/Arize-ai/phoenix'},
                 {'name': 'Opik', 'url': 'https://github.com/comet-ml/opik'},
                 {'name': 'Datadog (commercial)', 'url': 'https://www.datadoghq.com/'},
+                {'name': 'Braintrust (commercial)', 'url': 'https://www.braintrust.dev/'},
+                {'name': 'Keywords (commercial)', 'url': 'https://www.keywordsai.co/'},
             ]
         },
         {
@@ -81,6 +88,7 @@ def index():
                 {'name': 'TruLens', 'url': 'https://github.com/truera/trulens'},
                 {'name': 'Opik', 'url': 'https://github.com/comet-ml/opik'},
                 {'name': 'OpenEvals', 'url': 'https://github.com/langchain-ai/openevals'},
+                {'name': 'Scorecard (commercial)', 'url': 'https://www.scorecard.io/'} 
             ]
         },
         {
