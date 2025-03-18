@@ -33,10 +33,14 @@ def index():
                 {'name': 'Agents SDK (OpenAI)', 'url': 'https://github.com/openai/openai-agents-python'},
                 {'name': 'SuperAGI', 'url': 'https://github.com/TransformerOptimus/SuperAGI'},
                 {'name': 'Intellagent', 'url': 'https://github.com/plurai-ai/intellagent'},
-                {'name': 'Qwen-Agent', 'url': 'https://github.com/QwenLM/Qwen-Agent'},
-                {'name': 'AutoAgent', 'url': 'https://github.com/HKUDS/AutoAgent'},
+                {'name': 'Qwen-Agent', 'url': 'https://github.com/QwenLM/Qwen-Agent'},                
                 {'name': 'CAMEL', 'url': 'https://github.com/camel-ai/camel'},
-                {'name': 'Mistral (commercial)', 'url': 'https://mistral.ai/'}
+                {'name': 'Mistral (commercial)', 'url': 'https://mistral.ai/'},
+                {'name': 'SwarmZero', 'url': 'https://github.com/swarmzero/swarmzero'},
+                {'name': 'PraisonAI', 'url': 'https://github.com/MervinPraison/PraisonAI'},
+                {'name': 'superagent', 'url': 'https://github.com/superagent-ai/superagent'},
+                {'name': 'AgentStack', 'url': 'https://github.com/AgentOps-AI/AgentStack'},
+                {'name': 'AutoAgent', 'url': 'https://github.com/HKUDS/AutoAgent'},
             ]
         },
         {
@@ -120,6 +124,8 @@ def index():
                 {'name': 'AIBrix (deployment on Kubernetes environment - vLLM extension)', 'url': 'https://github.com/vllm-project/aibrix'},
                 {'name': 'LoRAX (Predibase - server)', 'url': 'https://github.com/predibase/lorax'},
                 {'name': 'LlamaCPP - llama-server', 'url': 'https://github.com/ggml-org/llama.cpp'},
+                {'name': 'LiteLLM', 'url': 'https://github.com/BerriAI/litellm'},
+                {'name': 'LlamaStack', 'url': 'https://github.com/meta-llama/llama-stack'},
             ]
         },
         {
@@ -157,11 +163,16 @@ def index():
                 {'name': 'TensorBoard', 'url': 'https://github.com/tensorflow/tensorboard'},
                 {'name': 'Visdom', 'url': 'https://github.com/fossasia/visdom'},
             ]
-        }
+        },
+        {
+            'Applications': [
+                {'name': 'LlamaFS', 'url': 'https://github.com/iyaja/llama-fs'},
+            ]
+        },
     ],
     'Commercial Agentic Products': [
         {
-            'agentic_workflows': [
+            'Agentic Workflows': [
                 {'name': 'UiPath', 'url': 'https://www.uipath.com/'},
                 {'name': 'n8n', 'url': 'https://n8n.io/'},
                 {'name': 'Automation Anywhere', 'url': 'https://www.automationanywhere.com/'},
@@ -172,7 +183,7 @@ def index():
             ]
         },
         {
-            'e-mail_&_chat_services': [
+            'E-mail & Chat Services': [
                 {'name': 'Spike', 'url': 'https://www.spikenow.com/'},
                 {'name': 'Canary', 'url': 'https://canarymail.io/'},
                 {'name': 'conversica', 'url': 'https://www.conversica.com/'},
