@@ -88,7 +88,8 @@ def index():
                 {'name': 'TruLens', 'url': 'https://github.com/truera/trulens'},
                 {'name': 'Opik', 'url': 'https://github.com/comet-ml/opik'},
                 {'name': 'OpenEvals', 'url': 'https://github.com/langchain-ai/openevals'},
-                {'name': 'Scorecard (commercial)', 'url': 'https://www.scorecard.io/'} 
+                {'name': 'Scorecard (commercial)', 'url': 'https://www.scorecard.io/'},
+                {'name': 'Maxim (commercial)', 'url': 'https://www.getmaxim.ai/'},
             ]
         },
         {
