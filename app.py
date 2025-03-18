@@ -225,6 +225,7 @@ def index():
         },
         {
             'VectorDB': [
+                {'name': 'txtai', 'url': 'https://github.com/neuml/txtai'},
                 {'name': 'Weaviate', 'url': 'https://github.com/weaviate/weaviate'},
                 {'name': 'Qdrant', 'url': 'https://github.com/qdrant/qdrant'},
                 {'name': 'pgvector (PostgreSQL extension)', 'url': 'https://github.com/pgvector/pgvector'},
