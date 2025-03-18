@@ -18,6 +18,7 @@ def index():
         {
             'Agent Frameworks': [
                 {'name': 'LangChain / LangGraph', 'url': 'https://github.com/langchain-ai/langchain'},
+                {'name': 'Langgraph Supervisor (multi-agent)', 'url': 'https://github.com/langchain-ai/langgraph-supervisor-py'},
                 {'name': 'Langflow', 'url': 'https://github.com/langflow-ai/langflow'},
                 {'name': 'LlamaIndex', 'url': 'https://github.com/jerryjliu/llama_index'},
                 {'name': 'smolagents', 'url': 'https://github.com/huggingface/smolagents'},
@@ -33,7 +34,6 @@ def index():
                 {'name': 'Intellagent', 'url': 'https://github.com/plurai-ai/intellagent'},
                 {'name': 'Qwen-Agent', 'url': 'https://github.com/QwenLM/Qwen-Agent'},
                 {'name': 'AutoAgent', 'url': 'https://github.com/HKUDS/AutoAgent'},
-                {'name': 'Byaldi (multimodal retrieval on top of LangChain)', 'url': 'https://github.com/AnswerDotAI/byaldi'},
             ]
         },
         {
@@ -42,6 +42,7 @@ def index():
                 {'name': 'GraphRAG (Microsoft)', 'url': 'https://github.com/microsoft/GraphRAG'},
                 {'name': 'LLM-Graph-Builder (Neo4j)', 'url': 'https://github.com/neo4j-labs/llm-graph-builder'},
                 {'name': 'GroundX (EyeLevel)', 'url': 'https://github.com/eyelevelai/groundx-on-prem'},
+                {'name': 'Byaldi (multimodal retrieval on top of LangChain)', 'url': 'https://github.com/AnswerDotAI/byaldi'},
             ]
         },
         {

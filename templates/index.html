@@ -31,23 +31,23 @@
 
     {% for header, tabs in collapsibles.items() %}
         <div class="collapsible-section">
-            <div class="collapsible-header" data-target="{{ header|replace(' ', '-')|lower }}">
+            <div class="collapsible-header" data-target="{{ header|replace(' ', '-') }}">
                 {{ header }}
             </div>
-            <div id="{{ header|replace(' ', '-')|lower }}" class="collapsible-content">
+            <div id="{{ header|replace(' ', '-') }}" class="collapsible-content">
                 <section class="resources">
                     <div class="tab-container">
                         {% for tab in tabs %}
                             {% set tab_name = tab.keys()|list|first %}
-                            <button class="tab-button {% if loop.first %}active{% endif %}" data-tab="{{ header|replace(' ', '-')|lower }}-{{ tab_name|replace(' ', '-')|lower }}">
-                                {{ tab_name|capitalize() }}
+                            <button class="tab-button {% if loop.first %}active{% endif %}" data-tab="{{ header|replace(' ', '-') }}-{{ tab_name|replace(' ', '-') }}">
+                                {{ tab_name }}
                             </button>
                         {% endfor %}
                     </div>
                     {% for tab in tabs %}
                         {% set tab_name = tab.keys()|list|first %}
-                        <div id="{{ header|replace(' ', '-')|lower }}-{{ tab_name|replace(' ', '-')|lower }}" class="tab-content {% if loop.first %}active{% endif %}">
-                            <h3>{{ tab_name|capitalize() }}</h3>
+                        <div id="{{ header|replace(' ', '-') }}-{{ tab_name|replace(' ', '-') }}" class="tab-content {% if loop.first %}active{% endif %}">
+                            <h3>{{ tab_name }}</h3>
                             <ul>
                                 {% for item in tab[tab_name] %}
                                     <li>
