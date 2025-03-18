@@ -74,7 +74,7 @@ def index():
                 ]
         },
         {
-            'Tracing': [
+            'Tracing - Tracking - Evaluation': [
                 {'name': 'LangSmith (commercial)', 'url': 'https://github.com/langchain-ai/langsmith-sdk'},
                 {'name': 'Langfuse', 'url': 'https://github.com/langfuse/langfuse'},
                 {'name': 'Pydantic Logfire', 'url': 'https://github.com/pydantic/logfire'},
@@ -84,16 +84,23 @@ def index():
                 {'name': 'Datadog (commercial)', 'url': 'https://www.datadoghq.com/'},
                 {'name': 'Braintrust (commercial)', 'url': 'https://www.braintrust.dev/'},
                 {'name': 'Keywords (commercial)', 'url': 'https://www.keywordsai.co/'},
-            ]
-        },
-        {
-            'Evaluation': [
                 {'name': 'Ragas', 'url': 'https://github.com/explodinggradients/ragas'},
                 {'name': 'TruLens', 'url': 'https://github.com/truera/trulens'},
                 {'name': 'Opik', 'url': 'https://github.com/comet-ml/opik'},
                 {'name': 'OpenEvals', 'url': 'https://github.com/langchain-ai/openevals'},
                 {'name': 'Scorecard (commercial)', 'url': 'https://www.scorecard.io/'},
                 {'name': 'Maxim (commercial)', 'url': 'https://www.getmaxim.ai/'},
+                {'name': 'Weights & Biases', 'url': 'https://github.com/wandb/wandb'},
+                {'name': 'Comet', 'url': 'https://www.comet.ml/'},
+                {'name': 'Neptune (commercial)', 'url': 'https://neptune.ai/'},
+                {'name': 'MLflow', 'url': 'https://github.com/mlflow/mlflow'},
+                {'name': 'DVC', 'url': 'https://github.com/iterative/dvc.org'},
+                {'name': 'Polyaxon', 'url': 'https://github.com/polyaxon/polyaxon'},
+                {'name': 'Sacred', 'url': 'https://github.com/IDSIA/sacred'},
+                {'name': 'Sacredboard', 'url': 'https://github.com/chovanecm/sacredboard'},
+                {'name': 'Omniboard', 'url': 'https://github.com/vivekratnavel/omniboard'},
+                {'name': 'TensorBoard', 'url': 'https://github.com/tensorflow/tensorboard'},
+                {'name': 'Visdom', 'url': 'https://github.com/fossasia/visdom'},
             ]
         },
         {
@@ -147,21 +154,6 @@ def index():
                 {'name': 'JAX (Google - TPUs)', 'url': 'https://github.com/jax-ml/jax'},
                 {'name': 'Triton (OpenAI)', 'url': 'https://github.com/triton-lang/triton'},
                 {'name': 'Ludwig (Predibase)', 'url': 'https://github.com/ludwig-ai/ludwig'},
-            ]
-        },
-        {
-            'Experimentation': [
-                {'name': 'Weights & Biases', 'url': 'https://github.com/wandb/wandb'},
-                {'name': 'Comet', 'url': 'https://www.comet.ml/'},
-                {'name': 'Neptune (commercial)', 'url': 'https://neptune.ai/'},
-                {'name': 'MLflow', 'url': 'https://github.com/mlflow/mlflow'},
-                {'name': 'DVC', 'url': 'https://github.com/iterative/dvc.org'},
-                {'name': 'Polyaxon', 'url': 'https://github.com/polyaxon/polyaxon'},
-                {'name': 'Sacred', 'url': 'https://github.com/IDSIA/sacred'},
-                {'name': 'Sacredboard', 'url': 'https://github.com/chovanecm/sacredboard'},
-                {'name': 'Omniboard', 'url': 'https://github.com/vivekratnavel/omniboard'},
-                {'name': 'TensorBoard', 'url': 'https://github.com/tensorflow/tensorboard'},
-                {'name': 'Visdom', 'url': 'https://github.com/fossasia/visdom'},
             ]
         },
         {
