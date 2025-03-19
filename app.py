@@ -76,6 +76,7 @@ def index():
         },
         {
             'Tracing - Tracking - Evaluation': [
+                {'name': '---------- TRACING ----------', 'url': ''},
                 {'name': 'LangSmith (commercial)', 'url': 'https://github.com/langchain-ai/langsmith-sdk'},
                 {'name': 'Langfuse', 'url': 'https://github.com/langfuse/langfuse'},
                 {'name': 'Pydantic Logfire', 'url': 'https://github.com/pydantic/logfire'},
@@ -85,12 +86,14 @@ def index():
                 {'name': 'Datadog (commercial)', 'url': 'https://www.datadoghq.com/'},
                 {'name': 'Braintrust (commercial)', 'url': 'https://www.braintrust.dev/'},
                 {'name': 'Keywords (commercial)', 'url': 'https://www.keywordsai.co/'},
+                {'name': '---------- EVALUATION ----------', 'url': ''},
                 {'name': 'Ragas', 'url': 'https://github.com/explodinggradients/ragas'},
                 {'name': 'TruLens', 'url': 'https://github.com/truera/trulens'},
                 {'name': 'Opik', 'url': 'https://github.com/comet-ml/opik'},
                 {'name': 'OpenEvals', 'url': 'https://github.com/langchain-ai/openevals'},
                 {'name': 'Scorecard (commercial)', 'url': 'https://www.scorecard.io/'},
                 {'name': 'Maxim (commercial)', 'url': 'https://www.getmaxim.ai/'},
+                {'name': '---------- TRACKING ----------', 'url': ''},
                 {'name': 'Weights & Biases', 'url': 'https://github.com/wandb/wandb'},
                 {'name': 'Comet', 'url': 'https://www.comet.ml/'},
                 {'name': 'Neptune (commercial)', 'url': 'https://neptune.ai/'},
