@@ -19,6 +19,7 @@ def index():
             'Agent Frameworks': [
                 {'name': 'LangChain / LangGraph', 'url': 'https://github.com/langchain-ai/langchain'},
                 {'name': 'Langgraph Supervisor (multi-agent)', 'url': 'https://github.com/langchain-ai/langgraph-supervisor-py'},
+                {'name': 'langgraph-builder', 'url': 'https://github.com/langchain-ai/langgraph-builder'},
                 {'name': 'Langflow', 'url': 'https://github.com/langflow-ai/langflow'},
                 {'name': 'LlamaIndex', 'url': 'https://github.com/jerryjliu/llama_index'},
                 {'name': 'smolagents', 'url': 'https://github.com/huggingface/smolagents'},
