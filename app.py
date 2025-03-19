@@ -14,6 +14,10 @@ def index():
         {'name': 'Jupyter Server', 'url': 'http://10.0.0.1:8888/tree'},
     ]
     
+    workplace = {
+        'name': 'BookStack Workplace', 'url': 'http://10.0.0.1:6875'
+    }
+
     collapsibles = {
     'AI Agents': [
         {
@@ -358,7 +362,7 @@ def index():
     ]
 }
 
-    return render_template('index.html', applications=applications, collapsibles=collapsibles)
+    return render_template('index.html', workplace=workplace, applications=applications, collapsibles=collapsibles)
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000, debug=True)
