@@ -358,6 +358,3 @@ def index():
 }
 
     return render_template('index.html', applications=applications, collapsibles=collapsibles)
-
-if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=80, debug=True) # debug true for development
