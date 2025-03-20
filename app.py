@@ -145,6 +145,7 @@ def index():
                 {'name': 'LlamaCPP - llama-server', 'url': 'https://github.com/ggml-org/llama.cpp'},
                 {'name': 'LiteLLM', 'url': 'https://github.com/BerriAI/litellm'},
                 {'name': 'LlamaStack', 'url': 'https://github.com/meta-llama/llama-stack'},
+                {'name': 'NVIDIA Dynamo', 'url': 'https://github.com/ai-dynamo/dynamo'}
             ]
         },
         {
