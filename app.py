@@ -31,6 +31,7 @@ def index():
                 {'name': 'AgnoAGI', 'url': 'https://github.com/agno-agi/agno/'},
                 {'name': 'CrewAI', 'url': 'https://github.com/crewAIInc/crewAI'},
                 {'name': 'PydanticAI', 'url': 'https://github.com/pydantic/pydantic-ai'},
+                {'name': 'AgentIQ', 'url': 'https://github.com/NVIDIA/AgentIQ'},
                 {'name': 'swarms', 'url': 'https://github.com/kyegomez/swarms'},
                 {'name': 'Atomic Agents', 'url': 'https://github.com/BrainBlend-AI/atomic-agents'},
                 {'name': 'QuantaLogic', 'url': 'https://github.com/quantalogic/quantalogic'},
@@ -62,6 +63,7 @@ def index():
             'Memory': [
                 {'name': 'langmem', 'url': 'https://github.com/langchain-ai/langmem'},
                 {'name': 'A-MEM', 'url': 'https://github.com/agiresearch/A-mem'},
+                {'name': 'mem0', 'url': 'https://github.com/mem0ai/mem0'},
             ]
         },
         {
@@ -69,6 +71,7 @@ def index():
                 {'name': 'Model Context Protocol (MCP)', 'url': 'https://github.com/modelcontextprotocol'},
                 {'name': 'Llama-MCP', 'url': 'https://github.com/llama-mcp'},
                 {'name': 'GenAI Toolbox (Google - Server to integrate with databases)', 'url': 'https://github.com/googleapis/genai-toolbox'},
+                {'name': 'Semantic Kernel (Microsoft)', 'url': 'https://github.com/microsoft/semantic-kernel'},
             ]
         },
         {
