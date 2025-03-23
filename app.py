@@ -57,6 +57,8 @@ def index():
                 {'name': 'LLM-Graph-Builder (Neo4j)', 'url': 'https://github.com/neo4j-labs/llm-graph-builder'},
                 {'name': 'GroundX (EyeLevel)', 'url': 'https://github.com/eyelevelai/groundx-on-prem'},
                 {'name': 'Byaldi (multimodal retrieval on top of LangChain)', 'url': 'https://github.com/AnswerDotAI/byaldi'},
+                {'name': 'RAGflow', 'url': 'https://github.com/infiniflow/ragflow'},
+                {'name': 'Minima', 'url': 'https://github.com/dmayboroda/minima'},
             ]
         },
         {
@@ -72,6 +74,7 @@ def index():
                 {'name': 'Llama-MCP', 'url': 'https://github.com/llama-mcp'},
                 {'name': 'GenAI Toolbox (Google - Server to integrate with databases)', 'url': 'https://github.com/googleapis/genai-toolbox'},
                 {'name': 'Semantic Kernel (Microsoft)', 'url': 'https://github.com/microsoft/semantic-kernel'},
+                {'name': 'MindsDB (query engine interface)', 'url': 'https://github.com/mindsdb/mindsdb'},
             ]
         },
         {
@@ -91,6 +94,7 @@ def index():
                 {'name': 'AgentOps', 'url': 'https://github.com/AgentOps-AI/agentops'},
                 {'name': 'Phoenix', 'url': 'https://github.com/Arize-ai/phoenix'},
                 {'name': 'Opik', 'url': 'https://github.com/comet-ml/opik'},
+                {'name': 'Lunary', 'url': 'https://github.com/lunary-ai/lunary'},
                 {'name': 'Datadog (commercial)', 'url': 'https://www.datadoghq.com/'},
                 {'name': 'Braintrust (commercial)', 'url': 'https://www.braintrust.dev/'},
                 {'name': 'Keywords (commercial)', 'url': 'https://www.keywordsai.co/'},
@@ -124,6 +128,10 @@ def index():
                 {'name': 'Chainlit', 'url': 'https://github.com/Chainlit/chainlit'},
                 {'name': 'Panel', 'url': 'https://github.com/holoviz/panel'},
                 {'name': 'NiceGUI', 'url': 'https://github.com/zauberzeug/nicegui'},
+                {'name': 'Open WebUI', 'url': 'https://github.com/open-webui/open-webui'},
+                {'name': 'OrionChat', 'url': 'https://github.com/EliasPereirah/OrionChat'},
+                {'name': 'Ollama Chat App', 'url': 'https://github.com/anan1213095357/ollama-chat-app'},
+                {'name': 'LLMChat', 'url': 'https://github.com/trendy-design/llmchat'},
             ]
         },
         {
@@ -140,18 +148,21 @@ def index():
             'Deployment': [
                 {'name': 'vLLM', 'url': 'https://github.com/vllm-project/vllm'},
                 {'name': 'Ollama', 'url': 'https://github.com/ollama/ollama'},
+                {'name': 'ChatOllama', 'url': 'https://github.com/sugarforever/chat-ollama'},
                 {'name': 'AIBrix (deployment on Kubernetes environment - vLLM extension)', 'url': 'https://github.com/vllm-project/aibrix'},
                 {'name': 'LoRAX (Predibase - server)', 'url': 'https://github.com/predibase/lorax'},
                 {'name': 'LlamaCPP - llama-server', 'url': 'https://github.com/ggml-org/llama.cpp'},
                 {'name': 'LiteLLM', 'url': 'https://github.com/BerriAI/litellm'},
                 {'name': 'LlamaStack', 'url': 'https://github.com/meta-llama/llama-stack'},
-                {'name': 'NVIDIA Dynamo', 'url': 'https://github.com/ai-dynamo/dynamo'}
+                {'name': 'NVIDIA Dynamo', 'url': 'https://github.com/ai-dynamo/dynamo'},
+                {'name': 'LMStudio', 'url': 'https://lmstudio.ai/'},
+                {'name': 'Argo', 'url': 'https://github.com/xark-argo/argo'},
             ]
         },
         {
             'Environment': [
-                {'name': 'E2B', 'url': ''},
-                {'name': 'Docker', 'url': ''},
+                {'name': 'E2B', 'url': 'https://github.com/e2b-dev/E2B'},
+                {'name': 'Docker', 'url': 'https://www.docker.com/'},
             ]
         },
         {
@@ -363,6 +374,16 @@ def index():
                 {'name': 'WSL2', 'url': ''},
             ]
         }
+    ],
+    'Learning Sources / Tutorials': [
+        {
+            'MongoDB RAG & Agent Notebooks': [
+                {'name': 'GenAI Showcase', 'url': 'https://github.com/mongodb-developer/GenAI-Showcase'}
+            ],
+
+        }
+            
+        
     ]
 }
 
