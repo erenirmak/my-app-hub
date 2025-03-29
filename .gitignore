@@ -2,3 +2,4 @@ docker_comms.txt
 docker-renew.py
 .venv
 __pycache__
+Dockerfile
