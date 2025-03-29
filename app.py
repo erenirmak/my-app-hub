@@ -381,10 +381,7 @@ def index():
             'MongoDB RAG & Agent Notebooks': [
                 {'name': 'GenAI Showcase', 'url': 'https://github.com/mongodb-developer/GenAI-Showcase'}
             ],
-
         }
-            
-        
     ]
 }
 
