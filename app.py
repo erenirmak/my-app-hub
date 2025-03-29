@@ -90,7 +90,7 @@ def index():
                 {'name': '---------- TRACING ----------', 'url': ''},
                 {'name': 'LangSmith (commercial)', 'url': 'https://github.com/langchain-ai/langsmith-sdk'},
                 {'name': 'Langfuse', 'url': 'https://github.com/langfuse/langfuse'},
-                {'name': 'Pydantic Logfire', 'url': 'https://github.com/pydantic/logfire'},
+                {'name': 'Pydantic Logfire (cloud-based)', 'url': 'https://github.com/pydantic/logfire'},
                 {'name': 'AgentOps', 'url': 'https://github.com/AgentOps-AI/agentops'},
                 {'name': 'Phoenix', 'url': 'https://github.com/Arize-ai/phoenix'},
                 {'name': 'Opik', 'url': 'https://github.com/comet-ml/opik'},
@@ -132,6 +132,7 @@ def index():
                 {'name': 'OrionChat', 'url': 'https://github.com/EliasPereirah/OrionChat'},
                 {'name': 'Ollama Chat App', 'url': 'https://github.com/anan1213095357/ollama-chat-app'},
                 {'name': 'LLMChat', 'url': 'https://github.com/trendy-design/llmchat'},
+                {'name': 'CopilotKit (commercial)', 'url': 'https://github.com/CopilotKit/CopilotKit'}
             ]
         },
         {
@@ -380,10 +381,7 @@ def index():
             'MongoDB RAG & Agent Notebooks': [
                 {'name': 'GenAI Showcase', 'url': 'https://github.com/mongodb-developer/GenAI-Showcase'}
             ],
-
         }
-            
-        
     ]
 }
 
