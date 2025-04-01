@@ -83,6 +83,7 @@ def index():
                 {'name': 'Outlines', 'url': 'https://github.com/outlines-dev/outlines'},
                 {'name': 'lm-format-enforcer', 'url': 'https://github.com/noamgat/lm-format-enforcer'},
                 {'name': 'xgrammar', 'url': 'https://github.com/mlc-ai/xgrammar'},
+                {'name': 'Inferable', 'url': 'https://github.com/inferablehq/inferable'}
                 ]
         },
         {
