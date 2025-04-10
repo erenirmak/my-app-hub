@@ -27,6 +27,8 @@ def index():
                 {'name': 'langgraph-builder', 'url': 'https://github.com/langchain-ai/langgraph-builder'},
                 {'name': 'Langflow', 'url': 'https://github.com/langflow-ai/langflow'},
                 {'name': 'LlamaIndex', 'url': 'https://github.com/jerryjliu/llama_index'},
+                {'name': 'Google ADK', 'url': 'https://github.com/google/adk-python'},
+                {'name': 'Agents SDK (OpenAI)', 'url': 'https://github.com/openai/openai-agents-python'},
                 {'name': 'smolagents', 'url': 'https://github.com/huggingface/smolagents'},
                 {'name': 'AgnoAGI', 'url': 'https://github.com/agno-agi/agno/'},
                 {'name': 'CrewAI', 'url': 'https://github.com/crewAIInc/crewAI'},
@@ -37,7 +39,6 @@ def index():
                 {'name': 'QuantaLogic', 'url': 'https://github.com/quantalogic/quantalogic'},
                 {'name': 'AutoGen (Microsoft)', 'url': 'https://github.com/microsoft/autogen'},
                 {'name': 'AG2 (formerly AutoGen)', 'url': 'https://github.com/ag2ai/ag2'},
-                {'name': 'Agents SDK (OpenAI)', 'url': 'https://github.com/openai/openai-agents-python'},
                 {'name': 'SuperAGI', 'url': 'https://github.com/TransformerOptimus/SuperAGI'},
                 {'name': 'Intellagent', 'url': 'https://github.com/plurai-ai/intellagent'},
                 {'name': 'Qwen-Agent', 'url': 'https://github.com/QwenLM/Qwen-Agent'},                
@@ -48,6 +49,7 @@ def index():
                 {'name': 'superagent', 'url': 'https://github.com/superagent-ai/superagent'},
                 {'name': 'AgentStack', 'url': 'https://github.com/AgentOps-AI/AgentStack'},
                 {'name': 'AutoAgent', 'url': 'https://github.com/HKUDS/AutoAgent'},
+                {'name': 'PySpur (no-code platform)', 'url': 'https://github.com/PySpur-Dev/pyspur'},
             ]
         },
         {
