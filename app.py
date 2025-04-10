@@ -5,7 +5,6 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    mlops = "https://github.com/graviraja/MLOps-Basics"
 
     with open("apps.json") as f:
         applications = json.load(f)
