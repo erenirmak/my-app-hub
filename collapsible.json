@@ -5,7 +5,7 @@
                 {"name": "LangChain / LangGraph", "url": "https://github.com/langchain-ai/langchain"},
                 {"name": "Langgraph Supervisor (multi-agent)", "url": "https://github.com/langchain-ai/langgraph-supervisor-py"},
                 {"name": "langgraph-builder", "url": "https://github.com/langchain-ai/langgraph-builder"},
-                {"name": "Langflow", "url": "https://github.com/langflow-ai/langflow"},
+                {"name": "Mozilla any-agent (abstraction layer)", "url": "https://github.com/mozilla-ai/any-agent"},
                 {"name": "LlamaIndex", "url": "https://github.com/jerryjliu/llama_index"},
                 {"name": "Google ADK", "url": "https://github.com/google/adk-python"},
                 {"name": "Agents SDK (OpenAI)", "url": "https://github.com/openai/openai-agents-python"},
@@ -29,6 +29,7 @@
                 {"name": "superagent", "url": "https://github.com/superagent-ai/superagent"},
                 {"name": "AgentStack", "url": "https://github.com/AgentOps-AI/AgentStack"},
                 {"name": "AutoAgent", "url": "https://github.com/HKUDS/AutoAgent"},
+                {"name": "Langflow", "url": "https://github.com/langflow-ai/langflow"},
                 {"name": "PySpur (no-code platform)", "url": "https://github.com/PySpur-Dev/pyspur"}
             ]
         },
@@ -53,6 +54,7 @@
         {
             "Agentic Protocols": [
                 {"name": "Model Context Protocol (MCP)", "url": "https://github.com/modelcontextprotocol"},
+                {"name": "MCP-Use", "url": "https://github.com/mcp-use/mcp-use"},
                 {"name": "Agent2Agent (A2A)", "url": "https://github.com/google/A2A"},
                 {"name": "Llama-MCP", "url": "https://github.com/llama-mcp"},
                 {"name": "GenAI Toolbox (Google - Server to integrate with databases)", "url": "https://github.com/googleapis/genai-toolbox"},
