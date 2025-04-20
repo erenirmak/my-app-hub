@@ -63,12 +63,15 @@
             ]
         },
         {
-            "Structured Outputs": [
+            "Extensions": [
+                {"name": "---------- Structured Outputs ----------", "url": ""},
                 {"name": "Instructor", "url": "https://github.com/jxnl/instructor"},
                 {"name": "Outlines", "url": "https://github.com/outlines-dev/outlines"},
                 {"name": "lm-format-enforcer", "url": "https://github.com/noamgat/lm-format-enforcer"},
                 {"name": "xgrammar", "url": "https://github.com/mlc-ai/xgrammar"},
-                {"name": "Inferable", "url": "https://github.com/inferablehq/inferable"}
+                {"name": "Inferable", "url": "https://github.com/inferablehq/inferable"},
+                {"name": "---------------- Chunking ----------------", "url": ""},
+                {"name": "Semantic Chunker", "url": "https://github.com/rango-ramesh/advanced-chunker"}
                 ]
         },
         {
