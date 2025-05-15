@@ -28,8 +28,10 @@
                 {"name": "superagent", "url": "https://github.com/superagent-ai/superagent"},
                 {"name": "AgentStack", "url": "https://github.com/AgentOps-AI/AgentStack"},
                 {"name": "AutoAgent", "url": "https://github.com/HKUDS/AutoAgent"},
+                {"name": "Plexe", "url": "https://github.com/plexe-ai/plexe"},
                 {"name": "Langflow", "url": "https://github.com/langflow-ai/langflow"},
-                {"name": "PySpur (no-code platform)", "url": "https://github.com/PySpur-Dev/pyspur"}
+                {"name": "PySpur (no-code platform)", "url": "https://github.com/PySpur-Dev/pyspur"},
+                {"name":"Langchain Open Agent Platform (OAP)", "url": "https://github.com/langchain-ai/open-agent-platform/"}
             ]
         },
         {
@@ -122,6 +124,8 @@
                 {"name": "OrionChat", "url": "https://github.com/EliasPereirah/OrionChat"},
                 {"name": "Ollama Chat App", "url": "https://github.com/anan1213095357/ollama-chat-app"},
                 {"name": "LLMChat", "url": "https://github.com/trendy-design/llmchat"},
+                {"name": "LobeChat", "url": "https://github.com/lobehub/lobe-chat"},
+                {"name": "LibreChat", "url": "https://github.com/danny-avila/LibreChat"},
                 {"name": "CopilotKit (commercial)", "url": "https://github.com/CopilotKit/CopilotKit"}
             ]
         },
