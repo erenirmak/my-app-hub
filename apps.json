@@ -5,6 +5,7 @@
     {"name": "Airflow", "url": "http://10.0.0.1:8080/home"},
     {"name": "Jupyter Server", "url": "http://10.0.0.1:8888/tree"},
     {"name": "BookStack Workplace", "url": "http://10.0.0.1:6875"},
+    {"name": "Local ChatGPT (Open-Web UI)", "url": "http://10.0.0.2:8080"},
     {"name": "BookStack Thesis", "url": "http://10.0.0.2:6875"},
     {"name": "Trilium Notes", "url": "http://10.0.0.2:8082"},
     {"name": "Calibre-Web", "url": "http://10.0.0.2:8083"},
