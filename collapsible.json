@@ -57,6 +57,7 @@
                 {"name": "Model Context Protocol (MCP)", "url": "https://github.com/modelcontextprotocol"},
                 {"name": "MCP-Use", "url": "https://github.com/mcp-use/mcp-use"},
                 {"name": "Agent2Agent (A2A)", "url": "https://github.com/google/A2A"},
+                {"name": "Agent-User Interaction Protocol (AG-UI)", "url": "https://github.com/ag-ui-protocol/ag-ui"},
                 {"name": "Llama-MCP", "url": "https://github.com/llama-mcp"},
                 {"name": "GenAI Toolbox (Google - Server to integrate with databases)", "url": "https://github.com/googleapis/genai-toolbox"},
                 {"name": "Semantic Kernel (Microsoft)", "url": "https://github.com/microsoft/semantic-kernel"},
