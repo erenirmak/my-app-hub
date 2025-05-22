@@ -31,6 +31,7 @@
                 {"name": "Plexe", "url": "https://github.com/plexe-ai/plexe"},
                 {"name": "Langflow", "url": "https://github.com/langflow-ai/langflow"},
                 {"name": "PySpur (no-code platform)", "url": "https://github.com/PySpur-Dev/pyspur"},
+                {"name": "Shinkai", "url": "https://github.com/dcSpark/shinkai-apps"},
                 {"name":"Langchain Open Agent Platform (OAP)", "url": "https://github.com/langchain-ai/open-agent-platform/"}
             ]
         },
