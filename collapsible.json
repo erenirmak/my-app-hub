@@ -50,7 +50,8 @@
             "Memory": [
                 {"name": "langmem", "url": "https://github.com/langchain-ai/langmem"},
                 {"name": "A-MEM", "url": "https://github.com/agiresearch/A-mem"},
-                {"name": "mem0", "url": "https://github.com/mem0ai/mem0"}
+                {"name": "mem0", "url": "https://github.com/mem0ai/mem0"},
+                {"name": "Cognee", "url": "https://github.com/topoteretes/cognee"}
             ]
         },
         {
