@@ -3,7 +3,6 @@
     {"name": "Eksim Holding - Agent Test", "url": "http://10.0.0.1:8502"},
     {"name": "Agent App Tracing", "url": "http://10.0.0.1:6006"},
     {"name": "Airflow", "url": "http://10.0.0.1:8080/home"},
-    {"name": "BookStack Workplace (will be moved)", "url": "http://10.0.0.1:6875"},
     {"name": "Local ChatGPT (Open-Web UI)", "url": "http://chat.homelab.com"},
     {"name": "BookStack Thesis", "url": "http://bookstack.homelab.com"},
     {"name": "Trilium Notes", "url": "http://trilium.homelab.com"},
