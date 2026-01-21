@@ -8,17 +8,17 @@
 </head>
 <body>
     <header class="sliding-header">
-        <h1>My Application Hub</h1>
+        <h1>My Library</h1>
     </header>
-    <section class="apps">
+    <!-- <section class="apps">
         <h2>Applications:</h2>
         <ul>
             {% for app in applications %}
             <li><a href="{{ app.url }}" class="app-link" target="_blank">{{ app.name }}</a></li>
             {% endfor %}
         </ul>
-    </section>
-    <section class="info">
+    </section> -->
+    <!-- <section class="info">
         <h2>Definitions</h2>
         <div>
             <h3>MLOps</h3>
@@ -26,7 +26,7 @@
             {% set image_url = url_for('static', filename='images/mlops.jpg') %}
             <img src="{{ image_url }}" alt="MLOps" style="max-width: 300px;" onclick="openLightbox('{{ image_url }}')">
         </div>
-    </section>
+    </section> -->
 
     {% for header, tabs in collapsibles.items() %}
         <div class="collapsible-section">
