@@ -1,0 +1,16 @@
+services:
+  web:
+    container_name: vpn-website
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "80:5000"
+    restart: unless-stopped
+    environment:
+      - BIND=0.0.0.0:5000
+    # Optional: limit resources so your laptop doesn't freeze
+    deploy:
+      resources:
+        limits:
+          cpus: '0.50'
