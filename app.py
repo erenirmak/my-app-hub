@@ -6,10 +6,10 @@ app = Flask(__name__)
 @app.route('/')
 def index():
 
-    # with open("apps.json") as f:
+    # with open("resources/apps.json") as f:
     #     applications = json.load(f)
 
-    with open("collapsible.json", "r") as f:
+    with open("resources/collapsible.json", "r") as f:
         collapsibles = json.load(f)
 
     return render_template('index.html', collapsibles=collapsibles) #, applications=applications)
