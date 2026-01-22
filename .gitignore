@@ -3,3 +3,4 @@ docker-renew.py
 .venv
 __pycache__
 Dockerfile
+old_apps.json
