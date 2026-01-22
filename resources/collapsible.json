@@ -13,6 +13,9 @@
                 {"name": "AgnoAGI", "url": "https://github.com/agno-agi/agno/"},
                 {"name": "CrewAI", "url": "https://github.com/crewAIInc/crewAI"},
                 {"name": "PydanticAI", "url": "https://github.com/pydantic/pydantic-ai"},
+                {"name": "AgentScope", "url": "https://github.com/agentscope-ai/agentscope"},
+                {"name": "Parlant", "url": "https://github.com/emcie-co/parlant"},
+                {"name": "AgentFlow", "url": "https://github.com/lupantech/AgentFlow"},
                 {"name": "AgentIQ", "url": "https://github.com/NVIDIA/AgentIQ"},
                 {"name": "swarms", "url": "https://github.com/kyegomez/swarms"},
                 {"name": "Atomic Agents", "url": "https://github.com/BrainBlend-AI/atomic-agents"},
@@ -30,6 +33,7 @@
                 {"name": "AutoAgent", "url": "https://github.com/HKUDS/AutoAgent"},
                 {"name": "Plexe", "url": "https://github.com/plexe-ai/plexe"},
                 {"name": "Langflow", "url": "https://github.com/langflow-ai/langflow"},
+                {"name": "SimStudio", "url": "https://github.com/simstudioai/sim"},
                 {"name": "PySpur (no-code platform)", "url": "https://github.com/PySpur-Dev/pyspur"},
                 {"name": "Shinkai", "url": "https://github.com/dcSpark/shinkai-apps"},
                 {"name":"Langchain Open Agent Platform (OAP)", "url": "https://github.com/langchain-ai/open-agent-platform/"}
@@ -43,7 +47,8 @@
                 {"name": "GroundX (EyeLevel)", "url": "https://github.com/eyelevelai/groundx-on-prem"},
                 {"name": "Byaldi (multimodal retrieval on top of LangChain)", "url": "https://github.com/AnswerDotAI/byaldi"},
                 {"name": "RAGflow", "url": "https://github.com/infiniflow/ragflow"},
-                {"name": "Minima", "url": "https://github.com/dmayboroda/minima"}
+                {"name": "Minima", "url": "https://github.com/dmayboroda/minima"},
+                {"name": "ApeRAG", "url": "https://github.com/apecloud/ApeRAG"}
             ]
         },
         {
@@ -51,15 +56,19 @@
                 {"name": "langmem", "url": "https://github.com/langchain-ai/langmem"},
                 {"name": "A-MEM", "url": "https://github.com/agiresearch/A-mem"},
                 {"name": "mem0", "url": "https://github.com/mem0ai/mem0"},
-                {"name": "Cognee", "url": "https://github.com/topoteretes/cognee"}
+                {"name": "Cognee", "url": "https://github.com/topoteretes/cognee"},
+                {"name": "MemU", "url": "https://github.com/NevaMind-AI/memU"},
+                {"name": "Byterover Cipher", "url": "https://github.com/campfirein/cipher"}
             ]
         },
         {
-            "Agentic Protocols": [
+            "Protocols": [
                 {"name": "Model Context Protocol (MCP)", "url": "https://github.com/modelcontextprotocol"},
                 {"name": "MCP-Use", "url": "https://github.com/mcp-use/mcp-use"},
+                {"name": "Skills", "url": ""},
                 {"name": "Agent2Agent (A2A)", "url": "https://github.com/google/A2A"},
                 {"name": "Agent-User Interaction Protocol (AG-UI)", "url": "https://github.com/ag-ui-protocol/ag-ui"},
+                {"name": "Agent-to-User Interface (A2UI)", "url": "https://github.com/google/a2ui"},
                 {"name": "Llama-MCP", "url": "https://github.com/llama-mcp"},
                 {"name": "GenAI Toolbox (Google - Server to integrate with databases)", "url": "https://github.com/googleapis/genai-toolbox"},
                 {"name": "Semantic Kernel (Microsoft)", "url": "https://github.com/microsoft/semantic-kernel"},
@@ -77,6 +86,13 @@
                 {"name": "---------------- Chunking ----------------", "url": ""},
                 {"name": "Semantic Chunker", "url": "https://github.com/rango-ramesh/advanced-chunker"}
                 ]
+        },
+        {
+            "Document Processing/Parsing": [
+                {"name": "LangExtract", "url": "https://github.com/google/langextract"},
+                {"name": "Unstructured", "url": "https://github.com/Unstructured-IO/unstructured"},
+                {"name": "Docling", "url": "https://github.com/docling-project/docling"}
+            ]
         },
         {
             "Tracing - Tracking - Evaluation": [
@@ -126,10 +142,18 @@
                 {"name": "Open WebUI", "url": "https://github.com/open-webui/open-webui"},
                 {"name": "OrionChat", "url": "https://github.com/EliasPereirah/OrionChat"},
                 {"name": "Ollama Chat App", "url": "https://github.com/anan1213095357/ollama-chat-app"},
+                {"name": "Chat-Ollama", "url": "https://github.com/sugarforever/chat-ollama"},
                 {"name": "LLMChat", "url": "https://github.com/trendy-design/llmchat"},
                 {"name": "LobeChat", "url": "https://github.com/lobehub/lobe-chat"},
                 {"name": "LibreChat", "url": "https://github.com/danny-avila/LibreChat"},
-                {"name": "CopilotKit (commercial)", "url": "https://github.com/CopilotKit/CopilotKit"}
+                {"name": "CopilotKit", "url": "https://github.com/CopilotKit/CopilotKit"},
+                {"name": "Synapse Workflows", "url": "https://github.com/raj-maharajwala/AI_Agent_Chatbot_Synapse"}
+            ]
+        },
+        {
+            "Training / Models": [
+                {"name": "Agent Reinforcement Trainer (ART)", "url": "https://art.openpipe.ai/integrations/langgraph-integration"},
+                {"name": "Luth (French fine-tuned models)", "url": "https://github.com/kurakurai/Luth"}
             ]
         },
         {
@@ -184,6 +208,17 @@
             ]
         }
     ],
+    "Apps/Platforms": [
+        {
+            "Agent Apps": [
+                {"name": "Neo - Autonomous ML Engineer", "url": "https://heyneo.so/"}
+            ],
+            "RAG Apps": [
+                {"name": "PageIndex", "url": "https://github.com/VectifyAI/PageIndex"},
+                {"name": "Elysia", "url": "https://github.com/weaviate/elysia"}
+            ]
+        }
+    ],
     "Commercial Agentic Products": [
         {
             "Agentic Workflows": [
@@ -201,6 +236,34 @@
                 {"name": "Spike", "url": "https://www.spikenow.com/"},
                 {"name": "Canary", "url": "https://canarymail.io/"},
                 {"name": "conversica", "url": "https://www.conversica.com/"}
+            ]
+        }
+    ],
+    "Machine Learning": [
+        {
+            "Model Training": [
+                {"name": "TensorFlow", "url": "https://www.tensorflow.org/"},
+                {"name": "PyTorch", "url": "https://pytorch.org/"},
+                {"name": "Keras", "url": "https://keras.io/"},
+                {"name": "Scikit-learn", "url": "https://scikit-learn.org/"},
+                {"name": "XGBoost", "url": "https://xgboost.readthedocs.io/"},
+                {"name": "LightGBM", "url": "https://lightgbm.readthedocs.io/"},
+                {"name": "CatBoost", "url": "https://catboost.ai/"}
+            ],
+            "Data Processing": [
+                {"name": "DataTrove", "url": "https://github.com/huggingface/datatrove/"}
+            ],
+            "Datasets": [
+                {"name": "TensorFlow Datasets", "url": "https://www.tensorflow.org/datasets"},
+                {"name": "Hugging Face Datasets", "url": "https://huggingface.co/datasets"},
+                {"name": "UCI Machine Learning Repository", "url": "https://archive.ics.uci.edu/ml/index.php"},
+                {"name": "Kaggle Datasets", "url": "https://www.kaggle.com/datasets"},
+                {"name": "Google Dataset Search", "url": "https://datasetsearch.research.google.com/"},
+                {"name": "AWS Open Data Registry", "url": "https://registry.opendata.aws/"},
+                {"name": "Microsoft Research Open Data", "url": "https://msropendata.com/"}
+            ],
+            "Learning Resources": [
+                {"name": "CS231n Convolutional Neural Networks", "url": "https://cs231n.github.io/convolutional-networks/"}
             ]
         }
     ],
@@ -259,7 +322,8 @@
                 {"name": "LanceDB", "url": "https://github.com/lancedb/lancedb"},
                 {"name": "Pinecone", "url": "https://www.pinecone.io/"},
                 {"name": "Milvus", "url": "https://github.com/milvus-io/milvus"},
-                {"name": "Vald", "url": "https://vald.vdaas.org/"}
+                {"name": "Vald", "url": "https://vald.vdaas.org/"},
+                {"name": "LEANN", "url": "https://github.com/yichuan-w/LEANN"}
             ]
         },
         {
@@ -401,8 +465,58 @@
     ],
     "Learning Sources / Tutorials": [
         {
-            "MongoDB RAG & Agent Notebooks": [
-                {"name": "GenAI Showcase", "url": "https://github.com/mongodb-developer/GenAI-Showcase"}
+            "RAG & Agent Notebooks": [
+                {"name": "Agentic RAG Survey", "url": "https://github.com/asinghcsu/AgenticRAG-Survey"},
+                {"name": "MongoDB GenAI Showcase", "url": "https://github.com/mongodb-developer/GenAI-Showcase"},
+                {"name": "AnyScale Multimodal AI", "url": "https://github.com/anyscale/multimodal-ai"}
+            ]
+        },
+        {
+            "Agent Examples": [
+                {"name": "AI Researcher", "url": "https://github.com/HKUDS/AI-Researcher"},
+                {"name": "RAG-Anything", "url": "https://github.com/HKUDS/RAG-Anything"},
+                {"name": "CrewAI Examples", "url": "https://github.com/crewAIInc/crewAI-examples"}                
+            ]
+        },
+        {
+            "Lectures/Courses": [
+                {"name": "Stanford CME 295: Transformers and Large Language Models", "url": "https://github.com/afshinea/stanford-cme-295-transformers-large-language-models"},
+                {"name": "", "url": ""}
+            ]
+        },
+        {
+            "Documentations": [
+                {"name": "Langgraph Streaming", "url": "https://docs.langchain.com/oss/python/langgraph/streaming"}
+            ]
+        }
+    ],
+    "Articles": [
+        {
+            "Arxiv": [
+                {"name": "Memento: Fine-tuning LLM Agents without Fine-tuning LLMs", "url": "https://arxiv.org/abs/2508.16153"},
+                {"name": "", "url": ""}
+            ]
+        },
+        {
+            "Medium": [
+                {"name": "", "url": ""}
+            ]
+        },
+        {
+            "Blogs": [
+                {"name": "The Big LLM Architecture Comparison", "url": "https://magazine.sebastianraschka.com/p/the-big-llm-architecture-comparison"},
+                {"name": "OCR Open Models", "url": "https://huggingface.co/blog/ocr-open-models"}
+            ]
+        },
+        {
+            "Social Media": [
+                {"name": "DeepConf: Deep Think with Confidence", "url": "https://www.linkedin.com/posts/jiaweizhao96_introducing-deepconf-deep-think-with-confidence-ugcPost-7364891681780871170-elvM/"},
+                {"name": "DeepMind built RAG System (Avi Chawla - X)", "url": "https://x.com/_avichawla/status/1958053890831872065"}
+            ]
+        },
+        {
+            "Others": [
+                {"name": "Chain of Agents", "url": "https://chain-of-agents-afm.github.io/"}
             ]
         }
     ]
