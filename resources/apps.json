@@ -1,6 +1,6 @@
 [
     {"name": "Local ChatGPT (Open-Web UI)", "url": "http://chat.homelab.com"},
-    {"name": "BookStack Thesis", "url": "http://bookstack.homelab.com"},
+    {"name": "BookStack", "url": "http://bookstack.homelab.com"},
     {"name": "Trilium Notes", "url": "http://trilium.homelab.com"},
     {"name": "Calibre-Web", "url": "http://calibre.homelab.com"},
     {"name": "Filebrowser", "url": "http://filebrowser.homelab.com"},
